@@ -7,3 +7,9 @@ button.addEventListener("mouseover", () => {
     button.style.top = Math.random() * height + "px";
     button.style.left = Math.random() * width + "px";
 })
+
+button.addEventListener("touchstart", () => {
+    button.style.position = "absolute";
+    button.style.top = Math.random() * height + "px";
+    button.style.left = Math.random() * width + "px";
+})
